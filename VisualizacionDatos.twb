@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (datos_procesados)' inline='true' name='federated.1xxs1nu19ajvvp140yd5f0cpnbv0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='datos_procesados' name='excel-direct.175c9zs0zsd0x810q52kp0qdu2lb'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/LENOVO/OneDrive/Documentos/Pba_Datos_Camilo_Argoty/datos_procesados.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.175c9zs0zsd0x810q52kp0qdu2lb' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='CODIGO INSTITUCION' ordinal='0' />
+            <column datatype='integer' name='IES PADRE' ordinal='1' />
+            <column datatype='string' name='INSTITUCION EDUCACION SUPERIOR IES' ordinal='2' />
+            <column datatype='string' name='PRINCIPAL SECCIONAL' ordinal='3' />
+            <column datatype='string' name='SECTOR IES' ordinal='4' />
+            <column datatype='string' name='CARACTER IES' ordinal='5' />
+            <column datatype='string' name='CODIGO DEPARTAMENTO IES' ordinal='6' />
+            <column datatype='string' name='DEPARTAMENTO DOMICILIO IES' ordinal='7' />
+            <column datatype='string' name='MUNICIPIO DOMICILIO IES' ordinal='8' />
+            <column datatype='string' name='CODIGO SNIES PROGRAMA' ordinal='9' />
+            <column datatype='string' name='PROGRAMA ACADEMICO' ordinal='10' />
+            <column datatype='string' name='NIVEL ACADEMICO' ordinal='11' />
+            <column datatype='string' name='NIVEL FORMACION' ordinal='12' />
+            <column datatype='string' name='METODOLOGIA' ordinal='13' />
+            <column datatype='string' name='AREA CONOCIMIENTO' ordinal='14' />
+            <column datatype='string' name='NUCLEO BASICO CONOCIMIENTO NBC' ordinal='15' />
+            <column datatype='string' name='CODIGO DEPARTAMENTO PROGRAMA' ordinal='16' />
+            <column datatype='string' name='DEPARTAMENTO OFERTA PROGRAMA' ordinal='17' />
+            <column datatype='string' name='CODIGO MUNICIPIO PROGRAMA' ordinal='18' />
+            <column datatype='string' name='MUNICIPIO OFERTA PROGRAMA' ordinal='19' />
+            <column datatype='string' name='SEXO' ordinal='20' />
+            <column datatype='integer' name='ANO' ordinal='21' />
+            <column datatype='integer' name='SEMESTRE' ordinal='22' />
+            <column datatype='integer' name='INSCRITOS' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.175c9zs0zsd0x810q52kp0qdu2lb' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='CODIGO INSTITUCION' ordinal='0' />
+            <column datatype='integer' name='IES PADRE' ordinal='1' />
+            <column datatype='string' name='INSTITUCION EDUCACION SUPERIOR IES' ordinal='2' />
+            <column datatype='string' name='PRINCIPAL SECCIONAL' ordinal='3' />
+            <column datatype='string' name='SECTOR IES' ordinal='4' />
+            <column datatype='string' name='CARACTER IES' ordinal='5' />
+            <column datatype='string' name='CODIGO DEPARTAMENTO IES' ordinal='6' />
+            <column datatype='string' name='DEPARTAMENTO DOMICILIO IES' ordinal='7' />
+            <column datatype='string' name='MUNICIPIO DOMICILIO IES' ordinal='8' />
+            <column datatype='string' name='CODIGO SNIES PROGRAMA' ordinal='9' />
+            <column datatype='string' name='PROGRAMA ACADEMICO' ordinal='10' />
+            <column datatype='string' name='NIVEL ACADEMICO' ordinal='11' />
+            <column datatype='string' name='NIVEL FORMACION' ordinal='12' />
+            <column datatype='string' name='METODOLOGIA' ordinal='13' />
+            <column datatype='string' name='AREA CONOCIMIENTO' ordinal='14' />
+            <column datatype='string' name='NUCLEO BASICO CONOCIMIENTO NBC' ordinal='15' />
+            <column datatype='string' name='CODIGO DEPARTAMENTO PROGRAMA' ordinal='16' />
+            <column datatype='string' name='DEPARTAMENTO OFERTA PROGRAMA' ordinal='17' />
+            <column datatype='string' name='CODIGO MUNICIPIO PROGRAMA' ordinal='18' />
+            <column datatype='string' name='MUNICIPIO OFERTA PROGRAMA' ordinal='19' />
+            <column datatype='string' name='SEXO' ordinal='20' />
+            <column datatype='integer' name='ANO' ordinal='21' />
+            <column datatype='integer' name='SEMESTRE' ordinal='22' />
+            <column datatype='integer' name='INSCRITOS' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X10001:no:A1:X10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO INSTITUCION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CODIGO INSTITUCION]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CODIGO INSTITUCION</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IES PADRE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IES PADRE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>IES PADRE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSTITUCION EDUCACION SUPERIOR IES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[INSTITUCION EDUCACION SUPERIOR IES]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSTITUCION EDUCACION SUPERIOR IES</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRINCIPAL SECCIONAL</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PRINCIPAL SECCIONAL]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PRINCIPAL SECCIONAL</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SECTOR IES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SECTOR IES]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SECTOR IES</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CARACTER IES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CARACTER IES]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CARACTER IES</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO DEPARTAMENTO IES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CODIGO DEPARTAMENTO IES]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CODIGO DEPARTAMENTO IES</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEPARTAMENTO DOMICILIO IES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DEPARTAMENTO DOMICILIO IES]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DEPARTAMENTO DOMICILIO IES</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUNICIPIO DOMICILIO IES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[MUNICIPIO DOMICILIO IES]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MUNICIPIO DOMICILIO IES</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO SNIES PROGRAMA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CODIGO SNIES PROGRAMA]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CODIGO SNIES PROGRAMA</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROGRAMA ACADEMICO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PROGRAMA ACADEMICO]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PROGRAMA ACADEMICO</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL ACADEMICO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NIVEL ACADEMICO]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NIVEL ACADEMICO</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL FORMACION</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NIVEL FORMACION]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NIVEL FORMACION</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>METODOLOGIA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[METODOLOGIA]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>METODOLOGIA</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AREA CONOCIMIENTO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AREA CONOCIMIENTO]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AREA CONOCIMIENTO</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUCLEO BASICO CONOCIMIENTO NBC</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NUCLEO BASICO CONOCIMIENTO NBC]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NUCLEO BASICO CONOCIMIENTO NBC</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO DEPARTAMENTO PROGRAMA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CODIGO DEPARTAMENTO PROGRAMA]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CODIGO DEPARTAMENTO PROGRAMA</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEPARTAMENTO OFERTA PROGRAMA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DEPARTAMENTO OFERTA PROGRAMA]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DEPARTAMENTO OFERTA PROGRAMA</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO MUNICIPIO PROGRAMA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CODIGO MUNICIPIO PROGRAMA]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CODIGO MUNICIPIO PROGRAMA</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MUNICIPIO OFERTA PROGRAMA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[MUNICIPIO OFERTA PROGRAMA]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MUNICIPIO OFERTA PROGRAMA</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEXO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SEXO]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SEXO</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCO_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ANO]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ANO</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEMESTRE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEMESTRE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>SEMESTRE</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSCRITOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INSCRITOS]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSCRITOS</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[ANO]' role='dimension' type='quantitative' />
+      <column caption='Area Conocimiento' datatype='string' name='[AREA CONOCIMIENTO]' role='dimension' type='nominal' />
+      <column caption='Caracter Ies' datatype='string' name='[CARACTER IES]' role='dimension' type='nominal' />
+      <column caption='Codigo Departamento Ies' datatype='string' name='[CODIGO DEPARTAMENTO IES]' role='dimension' type='nominal' />
+      <column caption='Codigo Departamento Programa' datatype='string' name='[CODIGO DEPARTAMENTO PROGRAMA]' role='dimension' type='nominal' />
+      <column caption='Codigo Institucion' datatype='integer' name='[CODIGO INSTITUCION]' role='dimension' type='ordinal' />
+      <column caption='Codigo Municipio Programa' datatype='string' name='[CODIGO MUNICIPIO PROGRAMA]' role='dimension' type='nominal' />
+      <column caption='Codigo Snies Programa' datatype='string' name='[CODIGO SNIES PROGRAMA]' role='dimension' type='nominal' />
+      <column caption='Departamento Domicilio Ies' datatype='string' name='[DEPARTAMENTO DOMICILIO IES]' role='dimension' type='nominal' />
+      <column caption='Departamento Oferta Programa' datatype='string' name='[DEPARTAMENTO OFERTA PROGRAMA]' role='dimension' type='nominal' />
+      <column caption='Ies Padre' datatype='integer' name='[IES PADRE]' role='measure' type='quantitative' />
+      <column caption='Inscritos' datatype='integer' name='[INSCRITOS]' role='measure' type='quantitative' />
+      <column caption='Institucion Educacion Superior Ies' datatype='string' name='[INSTITUCION EDUCACION SUPERIOR IES]' role='dimension' type='nominal' />
+      <column caption='Metodologia' datatype='string' name='[METODOLOGIA]' role='dimension' type='nominal' />
+      <column caption='Municipio Domicilio Ies' datatype='string' name='[MUNICIPIO DOMICILIO IES]' role='dimension' type='nominal' />
+      <column caption='Municipio Oferta Programa' datatype='string' name='[MUNICIPIO OFERTA PROGRAMA]' role='dimension' type='nominal' />
+      <column caption='Nivel Academico' datatype='string' name='[NIVEL ACADEMICO]' role='dimension' type='nominal' />
+      <column caption='Nivel Formacion' datatype='string' name='[NIVEL FORMACION]' role='dimension' type='nominal' />
+      <column caption='Nucleo Basico Conocimiento Nbc' datatype='string' name='[NUCLEO BASICO CONOCIMIENTO NBC]' role='dimension' type='nominal' />
+      <column caption='Principal Seccional' datatype='string' name='[PRINCIPAL SECCIONAL]' role='dimension' type='nominal' />
+      <column caption='Programa Academico' datatype='string' name='[PROGRAMA ACADEMICO]' role='dimension' type='nominal' />
+      <column caption='Sector Ies' datatype='string' name='[SECTOR IES]' role='dimension' type='nominal' />
+      <column caption='Semestre' datatype='integer' name='[SEMESTRE]' role='measure' type='quantitative' />
+      <column caption='Sexo' datatype='string' name='[SEXO]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Colombia&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_3D0AF783C15D4D5780A7C3DE86863E6D'>
+            <properties context=''>
+              <relation connection='excel-direct.175c9zs0zsd0x810q52kp0qdu2lb' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='CODIGO INSTITUCION' ordinal='0' />
+                  <column datatype='integer' name='IES PADRE' ordinal='1' />
+                  <column datatype='string' name='INSTITUCION EDUCACION SUPERIOR IES' ordinal='2' />
+                  <column datatype='string' name='PRINCIPAL SECCIONAL' ordinal='3' />
+                  <column datatype='string' name='SECTOR IES' ordinal='4' />
+                  <column datatype='string' name='CARACTER IES' ordinal='5' />
+                  <column datatype='string' name='CODIGO DEPARTAMENTO IES' ordinal='6' />
+                  <column datatype='string' name='DEPARTAMENTO DOMICILIO IES' ordinal='7' />
+                  <column datatype='string' name='MUNICIPIO DOMICILIO IES' ordinal='8' />
+                  <column datatype='string' name='CODIGO SNIES PROGRAMA' ordinal='9' />
+                  <column datatype='string' name='PROGRAMA ACADEMICO' ordinal='10' />
+                  <column datatype='string' name='NIVEL ACADEMICO' ordinal='11' />
+                  <column datatype='string' name='NIVEL FORMACION' ordinal='12' />
+                  <column datatype='string' name='METODOLOGIA' ordinal='13' />
+                  <column datatype='string' name='AREA CONOCIMIENTO' ordinal='14' />
+                  <column datatype='string' name='NUCLEO BASICO CONOCIMIENTO NBC' ordinal='15' />
+                  <column datatype='string' name='CODIGO DEPARTAMENTO PROGRAMA' ordinal='16' />
+                  <column datatype='string' name='DEPARTAMENTO OFERTA PROGRAMA' ordinal='17' />
+                  <column datatype='string' name='CODIGO MUNICIPIO PROGRAMA' ordinal='18' />
+                  <column datatype='string' name='MUNICIPIO OFERTA PROGRAMA' ordinal='19' />
+                  <column datatype='string' name='SEXO' ordinal='20' />
+                  <column datatype='integer' name='ANO' ordinal='21' />
+                  <column datatype='integer' name='SEMESTRE' ordinal='22' />
+                  <column datatype='integer' name='INSCRITOS' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{093114FE-650B-4676-AE33-79EFF4FF0B5C}' />
+    </worksheet>
+    <worksheet name='Hoja 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5BA917A7-8F12-445C-842E-55281F62F2DE}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7CBBB7E8-A083-4470-BE80-D0DB3A0007BD}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Hoja 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D255060-A0B7-4CA8-B3F8-CA653EE26631}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Hoja 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Hoja 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
